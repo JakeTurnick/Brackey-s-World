@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://duxjof7lscnht"]
+
+[ext_resource type="PackedScene" uid="uid://dgullaivv0dn6" path="res://Scenes/Statics/basic_scene_transition_rect.tscn" id="1_f4d41"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+layer = 100
+
+[node name="SceneTransitionRect" parent="." instance=ExtResource("1_f4d41")]

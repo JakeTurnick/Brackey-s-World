@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://l2p74an2bdio"]
+
+[ext_resource type="FontFile" uid="uid://3kwbjbjhwqwb" path="res://Assets/brackeys_platformer_assets/fonts/PixelOperator8.ttf" id="1_ino6q"]
+
+[node name="Pixel Label" type="Label"]
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_ino6q")
+theme_override_font_sizes/font_size = 8
